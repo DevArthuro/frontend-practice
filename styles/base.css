@@ -4,4 +4,12 @@
   --hospital-green: #acd9b2;
   --white: #fff;
   --black: #000;
+
+  --letter-xs: 0.8rem;
+  --letter-sm: 1rem;
+  --letter-md: 1.2rem;
+  --letter-lg: 1.4rem;
+  --letter-xl: 1.6rem;
+  --letter-xxl: 1.8rem;
+  --letter-xxxl: 2rem;
 }
