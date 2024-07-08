@@ -1,0 +1,29 @@
+@import "./base.css";
+@import "./fonts.css";
+@import "./password.css";
+
+.form_container a {
+  color: var(--hospital-green);
+  font-size: var(--letter-sm);
+  text-align: center;
+  text-decoration: none;
+  margin: 24px 0;
+}
+
+.secondary-button {
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--letter-md);
+  font-weight: bold;
+  height: 40px;
+  background-color: var(--white);
+  border: 1px solid var(--hospital-green);
+  color: var(--hospital-green);
+}
+
+/* @media (max-width: 640px) {
+  .secondary-button {
+    margin-top: 20%;
+  }
+} */

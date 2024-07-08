@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password</title>
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="form_container">
+        <img src="./logos/logo_yard_sale.svg" alt="" class="logo" />
+        <h1 class="title">Enter your account</h1>
+        <p class="subtitle">Provide the credentials to login session</p>
+        <form action="/" class="form">
+          <label for="email" class="label">Email</label>
+          <input
+            type="text"
+            class="input input-email"
+            id="email"
+            placeholder="carlos@gmail.com"
+          />
+
+          <label for="re-password" class="label">Password</label>
+          <input
+            type="re-password"
+            class="input input-re-password"
+            id="re-password"
+            placeholder="*******"
+          />
+
+          <input
+            type="submit"
+            class="primary-button login-button"
+            value="confirm"
+          />
+        </form>
+        <a href="/password.html">I forgot my password</a>
+        <button class="secondary-button signup-button">Sign up</button>
+      </div>
+    </div>
+  </body>
+</html>
