@@ -2,14 +2,6 @@
 @import "./fonts.css";
 @import "./password.css";
 
-.form_container a {
-  color: var(--hospital-green);
-  font-size: var(--letter-sm);
-  text-align: center;
-  text-decoration: none;
-  margin: 24px 0;
-}
-
 .secondary-button {
   border-radius: 8px;
   width: 100%;
@@ -22,8 +14,16 @@
   color: var(--hospital-green);
 }
 
+.value {
+  font-size: var(--letter-md);
+  color: var(--very-light-pink);
+}
+
 @media (max-width: 640px) {
   .form_container {
+    height: 100%;
+  }
+  .form {
     height: 100%;
     justify-content: space-between;
   }
