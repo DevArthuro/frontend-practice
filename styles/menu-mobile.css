@@ -1,0 +1,47 @@
+@import "./fonts.css";
+@import "./base.css";
+
+.mobile-menu {
+  padding: 20px;
+  position: relative;
+}
+
+.mobile-menu a {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 24px;
+}
+
+.mobile-menu li {
+  margin-bottom: 24px;
+}
+
+.mobile-menu ul li .email {
+  font-size: var(--letter-sm);
+  font-weight: 300;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li .sign-out {
+  color: var(--hospital-green);
+  font-size: var(--letter-xs);
+}
+
+.mobile-menu ul:last-child {
+  margin-top: 80px;
+}
+
+.mobile-menu ul:last-child li {
+  margin: 0;
+  padding: 0;
+}
