@@ -1,0 +1,22 @@
+@import "./fonts.css";
+@import "./base.css";
+@import "./order.css";
+
+.order-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+}
+
+.resume {
+  grid-template-columns: auto 1fr auto;
+}
+
+.resume figure {
+  margin: 0;
+  padding: 0;
+}
+
+.resume p:nth-child(2) {
+  text-align: right;
+}
