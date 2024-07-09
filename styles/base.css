@@ -13,3 +13,11 @@
   --letter-xxl: 1.8rem;
   --letter-xxxl: 2rem;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

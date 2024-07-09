@@ -1,0 +1,101 @@
+@import "./base.css";
+@import "./fonts.css";
+
+.menu {
+  display: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right ul {
+  gap: 16px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: var(--very-light-pink);
+  text-decoration: none;
+  border: 1px solid var(--white);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+a:hover {
+  border: 1px solid var(--hospital-green);
+  color: var(--hospital-green);
+}
+
+.navbar-right ul li:nth-child(1) {
+  font-size: var(--letter-xs);
+  color: var(--very-light-pink);
+}
+
+.navbar-right .navbar-shopping-cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-right .navbar-shopping-cart .items {
+  width: 16px;
+  height: 16px;
+  background-color: var(--hospital-green);
+  border-radius: 50%;
+  font-size: var(--letter-xs);
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-right .cart {
+  align-self: center;
+  justify-self: center;
+}
+
+@media (max-width: 850px) {
+  .menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-left ul {
+    display: none;
+  }
+  .navbar-right ul li:first-child {
+    display: none;
+  }
+}
